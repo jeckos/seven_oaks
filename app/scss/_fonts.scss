@@ -1,0 +1,15 @@
+@import "_mixins/font-face";
+
+//@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+//@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+
+//Fonts
+
+@include font-face("ProximaNova", "../fonts/ProximaNovaLight/ProximaNova-Light", 300);
+@include font-face("ProximaNova", "../fonts/ProximaNovaRegular/ProximaNova-Regular", 400);
+@include font-face("ProximaNova", "../fonts/ProximaNovaSemibold/ProximaNova-Semibold", 600);
+@include font-face("ProximaNova", "../fonts/ProximaNovaBold/ProximaNova-Bold", 700);
+
+//Icons
+
+@include font-face("icomoon", "../fonts/icons/icomoon");
